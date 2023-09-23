@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0 240px;
+            background-color: gray;
+            border-radius: 27px;
+        }
+        span{
+            color: rgb(213, 67, 13);
+        }
+        .navbar .main-nav{
+            display: flex;  
+        }
+        .main-nav li{
+            
+            list-style: none;
+        }
+        .main-nav li:hover{
+            display: inline-block;
+        }
+        .main-nav li a{
+            text-decoration: none;
+            font-size: 16px;
+            margin-right: 20px;
+            color:rgb(241, 237, 237);
+            font-weight: bold;
+            transition: text-decoration-color 1s, color 0.15s;
+        }
+        .main-nav li a:hover{
+            text-decoration: underline;
+            text-decoration-color: aqua;
+            color: #afc7d0;
+            
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h1>You<span>Tube</span></h1>
+            <ul class="main-nav">
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Service</a></li>
+                <li><a href="">Contract US</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
